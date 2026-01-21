@@ -1,0 +1,19 @@
+services:
+  syncthing:
+    image: syncthing/syncthing:latest
+    container_name: syncthing
+    hostname: my-syncthing
+    environment:
+      - PUID=501        # UID macOS
+      - PGID=20         # GID macOS (staff)
+      - TZ=Africa/Dakar
+    volumes:
+      - /Users/uriel/Partage:/var/syncthing/data       # 🔑 données
+      - /Users/uriel/syncthing-config:/var/syncthing/config  # 🔑 config
+    ports:
+      - 8384:8384
+      - 22000:22000/tcp
+      - 22000:22000/udp
+      - 21027:21027/udp
+    restart: unless-stopped
+
