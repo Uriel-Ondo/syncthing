@@ -131,7 +131,7 @@ http://localhost:8384
 ### 💻 Sur macOS
 
 * **Label** : `Partage`
-* **Folder ID** : `partage-macos`
+* **Folder ID** : `laisser par defaut`
 * **Chemin** :
 
   ```
@@ -144,7 +144,7 @@ http://localhost:8384
 ### 🖥️ Sur Ubuntu
 
 * Accepter le dossier partagé
-* **Folder ID** : `partage-macos` (⚠️ identique)
+* **Folder ID** : `laisser par defaut` (⚠️ identique)
 * **Chemin** :
 
   ```
