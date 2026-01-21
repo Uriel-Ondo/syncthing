@@ -1,7 +1,7 @@
 
 # 🔄 Syncthing avec Docker (macOS & Ubuntu)
 
-Configuration propre de **Syncthing via Docker Compose** pour synchroniser un dossier entre **macOS et Ubuntu**, en évitant les dossiers parasites (`config`, `home`, `test`, etc.).
+Configuration propre de **Syncthing via Docker Compose** pour synchroniser un dossier entre **macOS et Ubuntu** ou autre, en évitant les dossiers parasites.
 
 ---
 
